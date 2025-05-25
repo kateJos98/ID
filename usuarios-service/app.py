@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/usuarios")
 def get_usuarios():
     usuarios = [
-        {"id": 1, "nombre": "Ana"},
+        {"id": 1, "nombre": "Rosa"},
         {"id": 2, "nombre": "Luis"}
     ]
     return jsonify(usuarios)
